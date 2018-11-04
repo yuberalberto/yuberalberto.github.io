@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+
+}
+
+.mytext {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: auto;
+}
+
+.btn-warning{
+  background-color: #ff5c33;
+  border: orangered;
+  text-transform: uppercase;
+  font-size: small;
+  border-radius: 15px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
